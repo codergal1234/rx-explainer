@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --sage:        #4A7C59;
+  --sage-mid:    #6a9e78;
+  --sage-light:  #EBF2ED;
+  --sage-faint:  #F2F7F4;
+  --terra:       #B85C38;
+  --terra-light: #FAE8DF;
+  --warm-white:  #FFFBF7;
+  --ink:         #1C2B20;
+  --ink-mid:     #3D5245;
+  --muted:       #9DB8A4;
+}
+
+body {
+  background: var(--warm-white);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}

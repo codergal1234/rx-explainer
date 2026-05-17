@@ -1,0 +1,144 @@
+[
+  {
+    "id": "ex1",
+    "category": "cardiovascular",
+    "label_text": "Atorvastatin Calcium 40mg Tablets. Take 1 tablet by mouth once daily at bedtime. Refills: 2. Prescriber: Dr. Rodriguez",
+    "fields": {
+      "drug_name": "Atorvastatina",
+      "dosage": "40 mg",
+      "frequency": "una vez al día en la noche",
+      "warnings": [
+        "Evitar jugo de toronja",
+        "Reportar dolor muscular"
+      ],
+      "prescriber": "Dr. Rodriguez"
+    },
+    "explanation": "Este medicamento, la atorvastatina, baja el colesterol malo en su sangre y protege su corazón.\n\nTómelo cada noche antes de dormir, con o sin comida. Aunque se sienta bien, no lo deje de tomar — el colesterol alto no duele pero sí daña poco a poco.\n\nNo tome jugo de toronja mientras use este medicamento. Si siente dolor o debilidad fuerte en los músculos, llame a su doctor de inmediato."
+  },
+  {
+    "id": "ex2",
+    "category": "diabetes",
+    "label_text": "Metformin HCl 500mg. Take 1 tablet twice daily with meals. Refills: 3. Prescriber: Dr. Santos",
+    "fields": {
+      "drug_name": "Metformina",
+      "dosage": "500 mg",
+      "frequency": "dos veces al día con comida",
+      "warnings": [
+        "Tomar siempre con comida",
+        "Avisar antes de estudios con tinte"
+      ],
+      "prescriber": "Dr. Santos"
+    },
+    "explanation": "Este medicamento, la metformina, ayuda a controlar el azúcar en su sangre. Es para personas con diabetes tipo 2.\n\nTómelo con el desayuno y con la cena para evitar que le revuelva el estómago. No lo tome con el estómago vacío.\n\nSi va a hacerse un estudio con tinte de contraste, como un CT scan, avísele a su doctor que toma este medicamento."
+  },
+  {
+    "id": "ex3",
+    "category": "antihypertensive",
+    "label_text": "Lisinopril 10mg. Take 1 tablet by mouth once daily. Refills: 5. Prescriber: Dr. Morales",
+    "fields": {
+      "drug_name": "Lisinopril",
+      "dosage": "10 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Puede causar tos seca",
+        "No tomar si está embarazada"
+      ],
+      "prescriber": "Dr. Morales"
+    },
+    "explanation": "Este medicamento, el lisinopril, baja la presión arterial y protege sus riñones y corazón.\n\nTómelo una vez al día, a la misma hora siempre. Puede tomarlo con o sin comida.\n\nEs normal sentir una tos seca como efecto secundario. Si es posible que esté embarazada, avise a su doctor de inmediato porque este medicamento no se puede usar durante el embarazo."
+  },
+  {
+    "id": "ex4",
+    "category": "pain",
+    "label_text": "Ibuprofen 600mg. Take 1 tablet by mouth every 8 hours with food as needed for pain. Refills: 0. Prescriber: Dr. Vega",
+    "fields": {
+      "drug_name": "Ibuprofeno",
+      "dosage": "600 mg",
+      "frequency": "cada 8 horas con comida según necesidad",
+      "warnings": [
+        "Tomar con comida",
+        "No tomar más de 3 al día"
+      ],
+      "prescriber": "Dr. Vega"
+    },
+    "explanation": "Este medicamento, el ibuprofeno, alivia el dolor, baja la fiebre y reduce la inflamación.\n\nSiempre tómelo con comida o leche para proteger su estómago. No tome más de 3 pastillas al día. Solo úselo cuando tenga dolor — no es para tomar todos los días.\n\nSi tiene dolor de estómago fuerte o ve sangre en el excusado, deje de tomarlo y llame a su doctor."
+  },
+  {
+    "id": "ex5",
+    "category": "antibiotic",
+    "label_text": "Amoxicillin 500mg. Take 1 capsule three times daily for 10 days. Refills: 0. Prescriber: Dr. Jimenez",
+    "fields": {
+      "drug_name": "Amoxicilina",
+      "dosage": "500 mg",
+      "frequency": "tres veces al día por 10 días",
+      "warnings": [
+        "Terminar todo el tratamiento",
+        "Avisar si hay alergia a la penicilina"
+      ],
+      "prescriber": "Dr. Jimenez"
+    },
+    "explanation": "Este medicamento, la amoxicilina, mata las bacterias que están causando su infección.\n\nTómelo cada 8 horas por todos los 10 días recetados, aunque se sienta mejor antes. Si para antes de tiempo, las bacterias pueden volver más fuertes.\n\nSi le sale sarpullido, tiene dificultad para respirar, o siente hinchazón en la cara o garganta, busque atención de emergencia de inmediato."
+  },
+  {
+    "id": "ex6",
+    "category": "anticoagulant",
+    "label_text": "Warfarin 5mg. Take 1 tablet by mouth once daily. Monitor INR regularly. Refills: 6. Prescriber: Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Evitar heridas y cortadas",
+        "No cambiar dieta de verduras",
+        "Muchos medicamentos interactúan"
+      ],
+      "prescriber": "Dr. Castillo"
+    },
+    "explanation": "Este medicamento, la warfarina, adelgaza la sangre para prevenir coágulos que pueden causar un derrame cerebral o ataque al corazón.\n\nTómelo a la misma hora todos los días. Necesita análisis de sangre regulares para asegurarse que la dosis sea correcta.\n\nNo cambie de repente lo que come, especialmente verduras de hoja verde. Avise a todos sus doctores y dentistas que toma este medicamento."
+  },
+  {
+    "id": "ex7",
+    "category": "respiratory",
+    "label_text": "Albuterol Sulfate 90mcg/actuation. Inhale 2 puffs every 4-6 hours as needed for shortness of breath. Refills: 3. Prescriber: Dr. Herrera",
+    "fields": {
+      "drug_name": "Albuterol",
+      "dosage": "90 mcg",
+      "frequency": "2 inhalaciones cada 4-6 horas según necesidad",
+      "warnings": [
+        "Solo usar cuando tenga síntomas",
+        "Agitar antes de usar"
+      ],
+      "prescriber": "Dr. Herrera"
+    },
+    "explanation": "Este medicamento, el albuterol, abre sus bronquios rápidamente cuando le falta el aire o siente silbidos al respirar. Es un medicamento de rescate.\n\nAgite bien el inhalador antes de usar. Inhale lento y profundo, aguante el aire 10 segundos, y espere un minuto entre cada inhalación.\n\nSi necesita usarlo más de 2 veces a la semana, llame a su doctor — puede necesitar un cambio en su tratamiento."
+  },
+  {
+    "id": "ex8",
+    "category": "thyroid",
+    "label_text": "Levothyroxine 50mcg. Take 1 tablet by mouth once daily on an empty stomach 30-60 minutes before breakfast. Refills: 11. Prescriber: Dr. Fuentes",
+    "fields": {
+      "drug_name": "Levotiroxina",
+      "dosage": "50 mcg",
+      "frequency": "una vez al día en ayunas",
+      "warnings": [
+        "Tomar con estómago vacío",
+        "30-60 minutos antes del desayuno"
+      ],
+      "prescriber": "Dr. Fuentes"
+    },
+    "explanation": "Este medicamento, la levotiroxina, reemplaza la hormona que su tiroides no produce suficiente. Es para el hipotiroidismo.\n\nTómelo en ayunas, entre 30 y 60 minutos antes del desayuno, con un vaso de agua. No lo tome con café, leche, calcio, ni hierro — impiden que su cuerpo lo absorba bien.\n\nNecesita tomarlo de por vida y hacerse análisis de sangre periódicos para ajustar la dosis."
+  },
+  {
+    "id": "9f9514fa-9d52-4262-b7e2-c5e09f7f7dda",
+    "category": "general",
+    "label_text": "Metformina 500 mg dos veces al dia con comida",
+    "fields": {
+      "drug_name": "Metformina",
+      "dosage": "500 mg",
+      "frequency": "dos veces",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "La **Metformina 500 mg** ayuda a controlar el azúcar en la sangre. Toma una pastilla dos veces al día con la comida. Este medicamento funciona muy bien para personas con diabetes.\n\nLa Metformina hace que tu cuerpo use mejor la insulina. También ayuda al hígado a producir menos azúcar. Es importante tomarla exactamente como te dice tu médico.\n\nSiempre toma las pastillas con alimentos para evitar molestias en el estómago. Si tienes preguntas, habla con tu médico. Este medicamento te ayudará a sentirte mejor y más saludable."
+  }
+]
