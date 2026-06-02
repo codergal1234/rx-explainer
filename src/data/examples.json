@@ -64,22 +64,6 @@
     "explanation": "Este medicamento, el ibuprofeno, alivia el dolor, baja la fiebre y reduce la inflamación.\n\nSiempre tómelo con comida o leche para proteger su estómago. No tome más de 3 pastillas al día. Solo úselo cuando tenga dolor — no es para tomar todos los días.\n\nSi tiene dolor de estómago fuerte o ve sangre en el excusado, deje de tomarlo y llame a su doctor."
   },
   {
-    "id": "ex5",
-    "category": "antibiotic",
-    "label_text": "Amoxicillin 500mg. Take 1 capsule three times daily for 10 days. Refills: 0. Prescriber: Dr. Jimenez",
-    "fields": {
-      "drug_name": "Amoxicilina",
-      "dosage": "500 mg",
-      "frequency": "tres veces al día por 10 días",
-      "warnings": [
-        "Terminar todo el tratamiento",
-        "Avisar si hay alergia a la penicilina"
-      ],
-      "prescriber": "Dr. Jimenez"
-    },
-    "explanation": "Este medicamento, la amoxicilina, mata las bacterias que están causando su infección.\n\nTómelo cada 8 horas por todos los 10 días recetados, aunque se sienta mejor antes. Si para antes de tiempo, las bacterias pueden volver más fuertes.\n\nSi le sale sarpullido, tiene dificultad para respirar, o siente hinchazón en la cara o garganta, busque atención de emergencia de inmediato."
-  },
-  {
     "id": "ex6",
     "category": "anticoagulant",
     "label_text": "Warfarin 5mg. Take 1 tablet by mouth once daily. Monitor INR regularly. Refills: 6. Prescriber: Dr. Castillo",
@@ -140,5 +124,1026 @@
       "prescriber": ""
     },
     "explanation": "La **Metformina 500 mg** ayuda a controlar el azúcar en la sangre. Toma una pastilla dos veces al día con la comida. Este medicamento funciona muy bien para personas con diabetes.\n\nLa Metformina hace que tu cuerpo use mejor la insulina. También ayuda al hígado a producir menos azúcar. Es importante tomarla exactamente como te dice tu médico.\n\nSiempre toma las pastillas con alimentos para evitar molestias en el estómago. Si tienes preguntas, habla con tu médico. Este medicamento te ayudará a sentirte mejor y más saludable."
+  },
+  {
+    "id": "ex9",
+    "category": "antihypertensive",
+    "label_text": "Amlodipine 5mg Tablets. Take 1 tablet by mouth once daily. Refills: 5. Prescriber: Dr. Gutierrez",
+    "fields": {
+      "drug_name": "Amlodipino",
+      "dosage": "5 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Puede causar hinchazón en pies o tobillos",
+        "Levantarse despacio para evitar mareos"
+      ],
+      "prescriber": "Dr. Gutierrez"
+    },
+    "explanation": "Este medicamento, el amlodipino, relaja las paredes de sus vasos sanguíneos para bajar la presión arterial y reducir el trabajo de su corazón.\n\nTómelo una vez al día, con o sin comida, siempre a la misma hora. Es normal sentir un poco de hinchazón en los pies o tobillos al principio.\n\nLevántese despacio de la cama o la silla para evitar mareos. No deje de tomarlo sin hablar primero con su doctor."
+  },
+  {
+    "id": "ex10",
+    "category": "antihypertensive",
+    "label_text": "Losartan Potassium 50mg. Take 1 tablet by mouth once daily. Refills: 5. Prescriber: Dr. Ramirez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "No tomar si está embarazada",
+        "Avisar cambios en la orina"
+      ],
+      "prescriber": "Dr. Ramirez"
+    },
+    "explanation": "Este medicamento, el losartán, baja la presión arterial y protege sus riñones, especialmente si tiene diabetes.\n\nTómelo una vez al día, con o sin comida, a la misma hora siempre. Puede pasar tiempo antes de notar la mejoría, pero es importante no parar.\n\nNo use este medicamento si está embarazada — puede dañar al bebé. Avísele a su doctor si nota mareos fuertes o cambios al orinar."
+  },
+  {
+    "id": "ex11",
+    "category": "diabetes",
+    "label_text": "Glipizide 5mg. Take 1 tablet by mouth 30 minutes before breakfast daily. Refills: 3. Prescriber: Dr. Mendez",
+    "fields": {
+      "drug_name": "Glipizida",
+      "dosage": "5 mg",
+      "frequency": "una vez al día 30 minutos antes del desayuno",
+      "warnings": [
+        "Puede causar azúcar baja",
+        "No saltarse comidas"
+      ],
+      "prescriber": "Dr. Mendez"
+    },
+    "explanation": "Este medicamento, la glipizida, le dice a su páncreas que produzca más insulina para bajar el azúcar en su sangre. Es para la diabetes tipo 2.\n\nTómelo 30 minutos antes del desayuno. Es muy importante no saltarse comidas cuando use este medicamento.\n\nPuede causar azúcar baja. Sepa reconocer las señales: temblor, sudor frío, mareos o confusión. Tenga siempre a la mano jugo de naranja o dulces para estos casos."
+  },
+  {
+    "id": "ex12",
+    "category": "diabetes",
+    "label_text": "Insulin Glargine 100 units/mL. Inject 20 units subcutaneously once daily at bedtime. Refills: 2. Prescriber: Dr. Navarro",
+    "fields": {
+      "drug_name": "Insulina Glargina",
+      "dosage": "100 unidades/mL",
+      "frequency": "20 unidades una vez al día en la noche",
+      "warnings": [
+        "No mezclar con otras insulinas",
+        "Guardar en refrigerador"
+      ],
+      "prescriber": "Dr. Navarro"
+    },
+    "explanation": "Este medicamento, la insulina glargina, controla el azúcar en su sangre durante las 24 horas del día. Es una insulina de acción larga.\n\nPóngase 20 unidades bajo la piel cada noche a la misma hora. Puede inyectarse en el abdomen, el muslo o el brazo. Cambie el lugar de inyección cada vez.\n\nGuárdela en el refrigerador hasta abrirla. Una vez abierta, puede conservarla a temperatura ambiente por 28 días. Nunca la congele."
+  },
+  {
+    "id": "ex13",
+    "category": "antidepressant",
+    "label_text": "Sertraline HCl 50mg. Take 1 tablet by mouth once daily in the morning. Refills: 2. Prescriber: Dr. Delgado",
+    "fields": {
+      "drug_name": "Sertralina",
+      "dosage": "50 mg",
+      "frequency": "una vez al día en la mañana",
+      "warnings": [
+        "Tarda 2-4 semanas en hacer efecto",
+        "No dejar de tomar sin consultar"
+      ],
+      "prescriber": "Dr. Delgado"
+    },
+    "explanation": "Este medicamento, la sertralina, ayuda a balancear sustancias en el cerebro que afectan el estado de ánimo. Se usa para la depresión y la ansiedad.\n\nTómelo cada mañana con o sin comida. Los primeros días puede sentir el estómago revuelto — esto pasa pronto. El efecto completo se siente entre 2 y 4 semanas después de empezar.\n\nNo lo deje de tomar de repente aunque se sienta bien. Hable con su doctor antes de parar — se debe bajar la dosis poco a poco."
+  },
+  {
+    "id": "ex14",
+    "category": "respiratory",
+    "label_text": "Fluticasone Propionate 110mcg/actuation. Inhale 2 puffs twice daily. Rinse mouth after use. Refills: 3. Prescriber: Dr. Vargas",
+    "fields": {
+      "drug_name": "Fluticasona",
+      "dosage": "110 mcg",
+      "frequency": "2 inhalaciones dos veces al día",
+      "warnings": [
+        "Enjuagar la boca después de usar",
+        "No es para ataques de asma"
+      ],
+      "prescriber": "Dr. Vargas"
+    },
+    "explanation": "Este medicamento, la fluticasona, reduce la inflamación en sus bronquios para prevenir ataques de asma. Es de uso diario — no sirve para aliviar un ataque que ya empezó.\n\nUse 2 inhalaciones por la mañana y 2 por la noche. Después de cada uso, enjuague bien la boca con agua y escúpala — esto previene una infección llamada candidiasis.\n\nNecesita usarlo todos los días aunque se sienta bien. Para ataques repentinos, use su inhalador de rescate."
+  },
+  {
+    "id": "ex15",
+    "category": "cardiovascular",
+    "label_text": "Rosuvastatin Calcium 20mg Tablets. Take 1 tablet by mouth once daily. Refills: 3. Prescriber: Dr. Espinoza",
+    "fields": {
+      "drug_name": "Rosuvastatina",
+      "dosage": "20 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Reportar dolor muscular",
+        "Análisis de sangre periódicos"
+      ],
+      "prescriber": "Dr. Espinoza"
+    },
+    "explanation": "Este medicamento, la rosuvastatina, baja el colesterol malo en su sangre para proteger su corazón y reducir el riesgo de un ataque cardíaco o derrame cerebral.\n\nTómelo una vez al día, con o sin comida, a cualquier hora. Es importante tomarlo todos los días aunque no sienta síntomas — el colesterol alto no duele.\n\nSi siente dolor fuerte, debilidad o calambres en los músculos, avísele a su doctor. Necesitará análisis de sangre de vez en cuando."
+  },
+  {
+    "id": "ex16",
+    "category": "antidepressant",
+    "label_text": "Escitalopram 10mg. Take 1 tablet by mouth once daily. Refills: 2. Prescriber: Dr. Ortega",
+    "fields": {
+      "drug_name": "Escitalopram",
+      "dosage": "10 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Tarda varias semanas en hacer efecto",
+        "Evitar alcohol"
+      ],
+      "prescriber": "Dr. Ortega"
+    },
+    "explanation": "Este medicamento, el escitalopram, ayuda al cerebro a regular el estado de ánimo. Se usa para tratar la depresión y la ansiedad.\n\nTómelo una vez al día, con o sin comida. Al principio puede sentirse un poco más inquieto o con náuseas — esto pasa en pocos días. Espere entre 2 y 4 semanas para sentir la mejoría completa.\n\nEvite el alcohol mientras lo toma. No lo deje de tomar de repente — su doctor le explicará cómo bajarlo poco a poco."
+  },
+  {
+    "id": "ex17",
+    "category": "respiratory",
+    "label_text": "Budesonide/Formoterol 160mcg/4.5mcg. Inhale 2 puffs twice daily. Do not use for acute symptoms. Refills: 2. Prescriber: Dr. Lara",
+    "fields": {
+      "drug_name": "Budesonida/Formoterol",
+      "dosage": "160 mcg/4.5 mcg",
+      "frequency": "2 inhalaciones dos veces al día",
+      "warnings": [
+        "No usar para síntomas repentinos",
+        "Enjuagar la boca después de usar"
+      ],
+      "prescriber": "Dr. Lara"
+    },
+    "explanation": "Este medicamento, budesonida con formoterol, tiene dos ingredientes que trabajan juntos: uno reduce la inflamación y el otro abre los bronquios. Es para el control diario del asma o EPOC.\n\nUse 2 inhalaciones por la mañana y 2 por la noche. Siempre enjuague la boca con agua después de cada uso.\n\nEste inhalador no es para un ataque repentino — use su inhalador de rescate en esos casos. Si sus síntomas empeoran, llame a su doctor de inmediato."
+  },
+  {
+    "id": "ex18",
+    "category": "cardiovascular",
+    "label_text": "Simvastatin 20mg Tablets. Take 1 tablet by mouth once daily in the evening. Refills: 5. Prescriber: Dr. Ibarra",
+    "fields": {
+      "drug_name": "Simvastatina",
+      "dosage": "20 mg",
+      "frequency": "una vez al día en la noche",
+      "warnings": [
+        "Evitar jugo de toronja",
+        "Avisar si hay dolor muscular"
+      ],
+      "prescriber": "Dr. Ibarra"
+    },
+    "explanation": "Este medicamento, la simvastatina, baja el colesterol malo en la sangre para proteger su corazón y sus arterias.\n\nTómelo cada noche, con o sin comida. Evite el jugo de toronja mientras use este medicamento — puede causar efectos no deseados.\n\nSi siente dolor, calambres o debilidad fuerte en los músculos, avísele a su doctor de inmediato. Hágase sus análisis de sangre según le indique su doctor."
+  },
+  {
+    "id": "ex19",
+    "category": "thyroid",
+    "label_text": "Levothyroxine 100mcg. Take 1 tablet by mouth once daily on an empty stomach, 30-60 minutes before first meal. Refills: 11. Prescriber: Dr. Peña",
+    "fields": {
+      "drug_name": "Levotiroxina",
+      "dosage": "100 mcg",
+      "frequency": "una vez al día en ayunas",
+      "warnings": [
+        "Tomar con estómago vacío",
+        "Evitar calcio, hierro y café al mismo tiempo"
+      ],
+      "prescriber": "Dr. Peña"
+    },
+    "explanation": "Este medicamento, la levotiroxina, reemplaza la hormona que su tiroides no produce en cantidad suficiente. Ayuda a que su cuerpo tenga energía y funcione bien.\n\nTómelo en ayunas, entre 30 y 60 minutos antes de su primera comida, con un vaso de agua. No lo tome junto con calcio, hierro, antiácidos ni café — impiden que su cuerpo lo absorba.\n\nEs un medicamento de por vida. Hágase sus análisis de sangre según le pida su doctor para ajustar la dosis."
+  },
+  {
+    "id": "1fd5006b-81ce-4c92-9af3-8d2365671a7e",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez al día. No tomar si está embarazada. Avisar cambios en la orina. Dr. Ramirez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón trabaja demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que el corazón descanse mejor.\n\nTome una pastilla una vez al día, a la misma hora siempre. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño.\n\n**No tome este medicamento si está embarazada** — puede hacerle daño al bebé. También avísele a su médico si nota cambios en la orina, como que orine muy poco o con color diferente. ¡Usted puede cuidar bien su salud!"
+  },
+  {
+    "id": "ea4163ca-7e4b-4f1f-a1e3-1a79773331ee",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez al día. Evitar heridas y cortadas. No cambiar dieta de verduras. Muchos medicamentos interactúan. Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina le ayuda a mantenerse sano y seguro.\n\nTome su pastilla a la misma hora cada día. El doctor Castillo necesitará análisis de sangre regulares. Esos análisis confirman que la dosis es correcta para usted.\n\nTenga cuidado de evitar cortadas o golpes fuertes. Coma la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise siempre a su doctor o farmacéutico. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "17b7715e-56b5-458c-8b74-7bc952747c7f",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina cuida su salud cada día.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para asegurarse de que la dosis sea la correcta para usted.\n\nTenga cuidado con los golpes fuertes y las cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede cuidarse muy bien!"
+  },
+  {
+    "id": "9f715d25-8547-46ba-920a-5cf24183d895",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño con el tiempo.\n\n**Si está embarazada, avísele a su médico antes de tomar este medicamento.** También dígale si nota que orina muy poco o con color diferente. ¡Con este medicamento y el cuidado de su doctor, usted puede proteger bien su corazón!"
+  },
+  {
+    "id": "1ec42682-47e8-4e21-acfe-62abff6e4847",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez al día. No tomar si está embarazada. Avisar cambios en la orina. Dr. Ramirez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado. Este medicamento relaja los vasos sanguíneos para que el corazón descanse y trabaje mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño con el tiempo.\n\n**No tome este medicamento si está embarazada**, porque puede hacerle daño al bebé. También avísele a su médico si nota cambios en la orina, como orinar muy poco o con color extraño. ¡Usted puede cuidar muy bien su salud!"
+  },
+  {
+    "id": "2184c899-e90d-402b-8713-5c00fe8c9e31",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez al día. Evitar heridas y cortadas. No cambiar dieta de verduras. Muchos medicamentos interactúan. Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina adelgaza su sangre para protegerlo de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina es importante para mantenerlo sano.\n\nTome su pastilla a la misma hora cada día. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea correcta para usted.\n\nTenga cuidado de evitar cortadas o golpes fuertes. Coma la misma cantidad de verduras de hoja verde cada semana — no más, no menos. Antes de tomar cualquier medicina nueva, incluso vitaminas, avise siempre a su doctor o farmacéutico. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "5e76b457-bf05-45ec-b598-2d7deb28e6a0",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano y seguro.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise siempre a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "5f772164-02bb-4b9d-a8c3-f2bd0b45329a",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón tiene que trabajar muy fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada, hable con su médico antes de seguir tomándolo. También avísele si se marea mucho o si nota cambios al orinar. ¡Con este medicamento y el apoyo de su doctor, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "f06edac3-5e47-446e-9624-30334426fc66",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. Es importante no dejar de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero puede hacerle daño poco a poco.\n\nSi está embarazada o planea estarlo, hable con su médico antes de continuar. También avísele si siente mareos al pararse rápido. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "72efcb24-8df4-4d3b-a797-9b7dd8e084f1",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja todos los días para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para asegurarse de que la dosis sea la correcta para usted.\n\nEvite los golpes fuertes y las cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "7930edd0-fb0f-49fe-ac1a-b35550089950",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nEvite golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "c8a655b6-ed68-4bc4-8005-ae77c3a43353",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar más de lo normal. Este medicamento relaja los vasos sanguíneos para que su corazón trabaje con más facilidad.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre causa dolor, pero puede hacerle daño poco a poco.\n\nSi nota mareos al pararse rápido, levántese despacio. También avísele a su médico si orina muy poco o si nota cambios en el color de la orina. ¡Con este medicamento y la ayuda de su médico, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "c207c2b3-9741-4004-b346-e5c49c6ab438",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez al día. No tomar si está embarazada. Avisar cambios en la orina. Dr. Ramirez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón trabaja demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño.\n\n**No tome este medicamento si está embarazada** — puede hacerle daño al bebé. También avísele a su médico si nota cambios en la orina, como orinar muy poco o con color diferente. ¡Usted puede cuidar muy bien su salud!"
+  },
+  {
+    "id": "cbfa512c-780e-4aea-b2d6-6d21407ef16d",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez al día. Evitar heridas y cortadas. No cambiar dieta de verduras. Muchos medicamentos interactúan. Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina protege su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina cuida su salud cada día.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Muchas medicinas pueden afectar la warfarina, por eso avise siempre a su doctor o farmacéutico antes de tomar cualquier medicina nueva. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "fa3141b6-4e68-4f34-8583-fb51e58080fe",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano y seguro.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "d89490fa-524b-4e01-b71d-bfc79cbb77a5",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón trabaja demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi nota mareos al pararse rápido, levántese despacio. Avísele a su médico si deja de orinar bien o si siente algo extraño. ¡Con este medicamento y el apoyo de su doctor, su corazón estará en buenas manos!"
+  },
+  {
+    "id": "70b9d6ce-92dc-4e3b-9bdb-d4542ac7fa34",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada, avísele a su médico de inmediato. También dígale si siente mareos al pararse rápido. ¡Con este medicamento y la ayuda de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "960e7918-e456-4134-821d-c95e5b166f8f",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "d2c0f900-f95f-4c1d-9758-fdd000eaf90d",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano.\n\nTome su pastilla a la misma hora todos los días, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "661c48d9-bff9-4324-bfc4-9c9cb8859091",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. Es importante no dejar de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero puede hacerle daño poco a poco.\n\nSi nota mareos al pararse rápido, hágalo más despacio. Avísele a su médico si tiene alguna duda o molestia. ¡Con este medicamento y el apoyo de su doctor, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "7e9e6e8a-949f-491d-a193-74eebaead417",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nAvísele a su médico si está embarazada o si nota cambios al orinar. Si tiene alguna pregunta, su médico siempre está listo para ayudarle. ¡Con este medicamento, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "e9461fcf-4a36-4631-b322-3957138e10c8",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "92b8ddc7-d46f-47e7-8075-8db0addfae2a",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "85bacf91-a64e-4425-80c2-c6d3d6aef8ad",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño con el tiempo.\n\nAvísele a su médico si se siente mareado o si nota cambios al orinar. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "3eade70a-a761-4507-a376-d15fbb66b6b5",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón trabaja demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño con el tiempo.\n\n**Avísele a su médico si está embarazada** antes de tomar este medicamento. También dígale si nota mareos o cambios al orinar. ¡Con este medicamento y el apoyo de su médico, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "07bb7b18-55a9-4bd2-8e7b-4374e1d37180",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano.\n\nTome su pastilla a la misma hora todos los días, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "1b2ac405-af3d-47ef-a91c-97bc1496fb98",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "9248b4c7-246f-458c-baef-eadeecfb7653",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede causar daño con el tiempo.\n\nSi está embarazada o piensa quedar embarazada, avísele a su médico de inmediato. También dígale si se marea mucho al pararse. ¡Con este medicamento y el apoyo de su doctor, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "093de2f6-7d2f-4205-8f05-5ee8f3f192bb",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez al día. No tomar si está embarazada. Avisar cambios en la orina. Dr. Ramirez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\n**No tome este medicamento si está embarazada**, ya que puede hacerle daño al bebé. También avísele a su médico si nota cambios en la orina, como orinar muy poco o con color diferente. ¡Usted puede cuidar muy bien su salud!"
+  },
+  {
+    "id": "4e24738a-5889-4275-a95b-ed44b5967a38",
+    "category": "respiratory",
+    "label_text": "Albuterol. 90 mcg. 2 inhalaciones cada 4-6 horas según necesidad. Solo usar cuando tenga síntomas. Agitar antes de usar. Dr. Herrera",
+    "fields": {
+      "drug_name": "Albuterol",
+      "dosage": "90 mcg",
+      "frequency": "",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicamento: Albuterol 90 mcg**\n\nEl albuterol abre sus vías respiratorias rápidamente. Úselo cuando sienta falta de aire o el pecho apretado. No es para tomarlo todos los días.\n\nAgite el inhalador antes de usarlo. Inhale despacio y aguante el aire 10 segundos. Puede usar 2 inhalaciones cada 4 a 6 horas cuando lo necesite.\n\nSi lo usa más de 2 veces por semana, llame al doctor Herrera. Eso puede significar que necesita un cambio en su tratamiento. ¡Con el cuidado correcto, usted puede sentirse mucho mejor!"
+  },
+  {
+    "id": "ee18ca5d-6bd2-4877-a60b-b41fd63127d5",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez al día. Evitar heridas y cortadas. No cambiar dieta de verduras. Muchos medicamentos interactúan. Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina protege su sangre de coágulos peligrosos que pueden causar derrames cerebrales o ataques al corazón. Esta medicina cuida su corazón y su salud cada día.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Muchas medicinas pueden afectar la warfarina, entonces avise siempre a su doctor o farmacéutico antes de tomar cualquier medicina nueva. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "a16c8df0-6648-466b-9d40-a058f91b90e3",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "dfcbe939-ddef-4dd6-954b-9fd8fc296b99",
+    "category": "respiratory",
+    "label_text": "Albuterol. 90 mcg",
+    "fields": {
+      "drug_name": "Albuterol",
+      "dosage": "90 mcg",
+      "frequency": "",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "I'm unable to rewrite this explanation safely because the dosing frequency is missing from the prescription.\n\n**The label only includes:**\n- Drug: Albuterol\n- Dose: 90 mcg\n- Frequency: ❌ Not provided\n\nTo protect patient safety, please provide the correct frequency before I write the explanation. For example:\n- \"2 inhalaciones cada 4–6 horas\"\n- \"1–2 inhalaciones según necesidad\"\n\nOnce you share that information, I'll create a clear, warm, and simple explanation right away. 🩺"
+  },
+  {
+    "id": "04a77279-87c5-4a5a-948b-b3aee4513b6b",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada, hable con su médico antes de tomar este medicamento. También avísele si se marea mucho al pararse rápido. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "d2e932da-7f24-4cd2-b3b1-2c6abaf4ab05",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero puede hacerle daño poco a poco.\n\nAvísele a su médico si está embarazada o si nota cambios al orinar. ¡Con este medicamento y la ayuda de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "ac2509bc-f287-41d7-bd33-f72bb3a5be26",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano y seguro.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "d12c542c-da73-465d-be01-be727dcf596a",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano y seguro.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "1b3403b6-1e35-446f-8c98-2f98952579e0",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón trabaja demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño con el tiempo.\n\n**Avísele a su médico si está embarazada** antes de tomar este medicamento. También dígale si nota mareos o cambios al orinar. ¡Con este medicamento y la ayuda de su médico, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "0e48ab64-6c90-495b-8ce5-4c7a4707593c",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada o piensa quedar embarazada, avísele a su médico de inmediato. También dígale si nota mareos fuertes o cambios al orinar. ¡Con este medicamento y el apoyo de su médico, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "ab9060a9-4c07-41f3-b723-b92594434153",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja todos los días para mantenerlo sano.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "cf2baed6-0e19-4d14-8ed8-cc6e1a579044",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja todos los días para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para asegurarse de que la dosis sea la correcta para usted.\n\nEvite los golpes fuertes y las cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "e6686b96-ff45-42c4-a4ec-6001360401c4",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre se siente, pero sí puede hacerle daño poco a poco.\n\nAvísele a su médico si nota mareos o cambios al orinar. Si está embarazada, hable con su doctor antes de seguir tomando este medicamento. ¡Con este medicamento y el apoyo de su médico, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "f247ce44-2277-44ca-9e72-06978f74181b",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. Es muy importante que no deje de tomarlo aunque se sienta bien — la presión alta muchas veces no duele, pero sí puede hacerle daño poco a poco.\n\nSi nota mareos al pararse rápido, hágalo más despacio. Hable con su médico si tiene alguna duda. ¡Usted está tomando un gran paso para cuidar su corazón y su salud!"
+  },
+  {
+    "id": "e1e5e828-3fdb-44c0-8643-2250f9843be2",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "6e872845-e4dc-469d-ab59-1d25134dff81",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de empezar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "ddbd822c-8be3-40be-b2fc-9f4b708017a4",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. Es importante no dejar de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero puede hacerle daño poco a poco.\n\nAvísele a su médico si siente mareos o nota cambios al orinar. Si está embarazada, hable con su doctor antes de continuar. ¡Con este medicamento y el apoyo de su médico, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "3d4e965d-dabd-480a-a47f-9f923971577d",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada, avísele a su médico de inmediato. También dígale si siente mareos o nota cambios al orinar. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "0aa2b336-12d7-4606-a4fc-ae3f6eaafcd9",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "17e9b437-6c75-4206-9086-bbd32e3db6b6",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "2df1d883-fa0e-48d9-8c9b-a062cf00837b",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nAvísele a su médico si está embarazada o si nota cambios al orinar. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "6a77971b-01a1-4621-8437-d0f7c15db0e6",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada o piensa estarlo, háblele a su médico antes de seguir tomando este medicamento. También avísele si se siente mareado al pararse rápido. ¡Usted está haciendo algo muy bueno por su corazón y su salud!"
+  },
+  {
+    "id": "da31d7c8-d4fe-439b-b684-ab9c1f245d5e",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo!"
+  },
+  {
+    "id": "ff4d310f-ea8b-4c2a-a6d8-515aa8660790",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano y seguro.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "0a0534ca-a028-4191-b00c-c845b4385af1",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. Es muy importante no dejar de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi nota mareos al pararse rápido, levántese despacio. Avísele a su médico si está embarazada o planea estarlo. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "607ae8aa-0c82-4a16-b8d4-74850f9ccb87",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón tiene que trabajar con mucho esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero con el tiempo puede hacerle daño.\n\nSi está embarazada, hable con su médico antes de continuar este tratamiento. Además, avísele si nota mareos o cambios al orinar. ¡Con este medicamento y la ayuda de su médico, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "2cc06e49-115f-40b0-b7e3-369648e9dc74",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "10357fcb-d10d-408d-afaa-ae2779174bff",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano y seguro.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "981b2a76-edcf-4d45-ae32-cd05ce7e70a7",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiada fuerza. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero con el tiempo puede hacerle daño.\n\nSi está embarazada o planea estarlo, avísele a su médico antes de seguir tomando este medicamento. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "fad41d23-7bed-4ef1-95a0-454251e02e8a",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar demasiado fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón descanse mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño poco a poco.\n\nSi está embarazada, avísele a su médico antes de seguir tomando este medicamento. También dígale si nota mareos fuertes o cambios al orinar. ¡Con este medicamento y el apoyo de su médico, usted puede cuidar muy bien su corazón!"
+  },
+  {
+    "id": "585986d8-3e7b-46ba-8dcc-a8de2af5ecd6",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para cuidar su salud.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "0f44eb5c-f3db-4a18-a053-280c0af28fab",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina ayuda a proteger su sangre de coágulos peligrosos. Los coágulos pueden causar derrames cerebrales o ataques al corazón. Esta medicina trabaja cada día para mantenerlo sano.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Trate de comer siempre la misma cantidad de verduras de hoja verde cada semana. Antes de tomar cualquier medicina nueva, avise a su doctor o farmacéutico. ¡Usted puede hacerlo muy bien!"
+  },
+  {
+    "id": "f0716a47-49c9-4701-baf7-26d1a25e43e1",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está alta, el corazón tiene que trabajar muy fuerte. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta no siempre duele, pero sí puede hacerle daño con el tiempo.\n\nSi está embarazada, hable con su médico antes de continuar. También avísele si siente mareos o nota cambios al orinar. ¡Con este medicamento y el apoyo de su doctor, usted está cuidando muy bien su corazón!"
+  },
+  {
+    "id": "cc65a387-7717-45bb-a36d-060b95261812",
+    "category": "general",
+    "label_text": "Losartán. 50 mg. una vez al día. No tomar si está embarazada. Avisar cambios en la orina. Dr. Ramirez",
+    "fields": {
+      "drug_name": "Losartán",
+      "dosage": "50 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "El **Losartán 50 mg** ayuda a bajar la presión de la sangre. Cuando la presión está muy alta, el corazón tiene que trabajar con demasiado esfuerzo. Este medicamento relaja los vasos sanguíneos para que su corazón pueda descansar mejor.\n\nTome una pastilla una vez al día, siempre a la misma hora. Puede tomarla con o sin comida. No deje de tomarlo aunque se sienta bien — la presión alta muchas veces no duele, pero sí puede hacerle daño poco a poco.\n\n**No tome este medicamento si está embarazada**, porque puede afectar al bebé. También avísele a su médico si nota cambios en la orina, como orinar muy poco o con un color diferente. ¡Usted está haciendo algo muy importante al cuidar su corazón!"
+  },
+  {
+    "id": "06da36cb-ae1c-40af-b499-bb9dc55859fe",
+    "category": "diabetes",
+    "label_text": "Metformina. 500 mg. dos veces",
+    "fields": {
+      "drug_name": "Metformina",
+      "dosage": "500 mg",
+      "frequency": "dos veces",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "Este medicamento, la metformina, ayuda a controlar el azúcar en su sangre. Es para personas con diabetes tipo 2. ¡Usted está tomando un buen paso para cuidar su salud!\n\nTómelo dos veces al día, siempre con comida — por ejemplo, con el desayuno y con la cena. Esto ayuda a evitar que le revuelva el estómago.\n\nNo deje de tomarlo aunque se sienta bien. El azúcar alta muchas veces no duele, pero sí hace daño. Si tiene dudas o se siente diferente, llame a su médico. ¡Usted no está solo en esto!"
+  },
+  {
+    "id": "224e4afa-6be6-4e0c-aa04-3fea8c0419ae",
+    "category": "anticoagulant",
+    "label_text": "Warfarina. 5 mg. una vez al día. Evitar heridas y cortadas. No cambiar dieta de verduras. Muchos medicamentos interactúan. Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez",
+      "warnings": [],
+      "prescriber": ""
+    },
+    "explanation": "**Su medicina: Warfarina 5 mg — una vez al día**\n\nLa warfarina protege su sangre de coágulos peligrosos que pueden causar un derrame cerebral o un ataque al corazón. Esta medicina cuida su salud cada día.\n\nTome su pastilla a la misma hora cada día, con o sin comida. Su doctor necesitará análisis de sangre regulares para confirmar que la dosis sea la correcta para usted.\n\nTenga cuidado con golpes fuertes y cortadas. Coma siempre la misma cantidad de verduras de hoja verde cada semana. Muchas medicinas pueden afectar la warfarina, así que avise siempre a su doctor o farmacéutico antes de tomar algo nuevo. ¡Usted puede hacerlo!"
   }
 ]

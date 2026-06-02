@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ev1",
+    "category": "antibiotic",
+    "label_text": "Amoxicillin 500mg. Take 1 capsule three times daily for 10 days. Refills: 0. Prescriber: Dr. Jimenez",
+    "fields": {
+      "drug_name": "Amoxicilina",
+      "dosage": "500 mg",
+      "frequency": "tres veces al día por 10 días",
+      "warnings": [
+        "Completar todo el tratamiento aunque se sienta mejor",
+        "Buscar atención de emergencia si hay sarpullido o hinchazón"
+      ],
+      "prescriber": "Dr. Jimenez"
+    },
+    "explanation": "Este medicamento, la amoxicilina, mata las bacterias que están causando su infección.\n\nTómelo cada 8 horas por todos los 10 días recetados, aunque se sienta mejor antes. Si para antes de tiempo, las bacterias pueden volver más fuertes.\n\nSi le sale sarpullido, tiene dificultad para respirar, o siente hinchazón en la cara o garganta, busque atención de emergencia de inmediato."
+  },
+  {
+    "id": "ev2",
+    "category": "anticoagulant",
+    "label_text": "Warfarin 5mg. Take 1 tablet by mouth once daily. Monitor INR regularly. Refills: 6. Prescriber: Dr. Castillo",
+    "fields": {
+      "drug_name": "Warfarina",
+      "dosage": "5 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Análisis de sangre regulares (INR)",
+        "Mantener consumo estable de verduras de hoja verde",
+        "Avisar a doctores y dentistas que toma este medicamento"
+      ],
+      "prescriber": "Dr. Castillo"
+    },
+    "explanation": "Este medicamento, la warfarina, adelgaza la sangre para prevenir coágulos que pueden causar un derrame cerebral o ataque al corazón.\n\nTómelo a la misma hora todos los días. Necesita análisis de sangre regulares para asegurarse que la dosis sea correcta.\n\nNo cambie de repente lo que come, especialmente verduras de hoja verde. Avise a todos sus doctores y dentistas que toma este medicamento."
+  },
+  {
+    "id": "ev3",
+    "category": "antidepressant",
+    "label_text": "Sertraline 50mg. Take 1 tablet daily in the morning. May take 2-4 weeks to feel full effect. Do not stop suddenly. Prescriber: Dr. Patricia Wong",
+    "fields": {
+      "drug_name": "Sertralina",
+      "dosage": "50 mg",
+      "frequency": "una vez al día en la mañana",
+      "warnings": [
+        "Tarda 2-4 semanas en hacer efecto",
+        "No suspender de golpe sin consultar al médico"
+      ],
+      "prescriber": "Dr. Patricia Wong"
+    },
+    "explanation": "Este medicamento, la sertralina, es para ayudarle con el ánimo y la ansiedad.\n\nTómela cada mañana. Tenga paciencia — tarda entre 2 y 4 semanas en funcionar bien.\n\nNunca la deje de tomar de golpe sin hablar con su médico primero, aunque no sienta que le está ayudando."
+  },
+  {
+    "id": "ev4",
+    "category": "respiratory",
+    "label_text": "Fluticasone inhaler. Use 1 puff twice daily. Preventive — not for sudden attacks. Rinse mouth after use. Prescriber: Dr. David Ortiz",
+    "fields": {
+      "drug_name": "Fluticasona",
+      "dosage": "",
+      "frequency": "dos veces al día",
+      "warnings": [
+        "No es para ataques de asma de emergencia",
+        "Enjuagar la boca después de usarlo"
+      ],
+      "prescriber": "Dr. David Ortiz"
+    },
+    "explanation": "Este inhalador, la fluticasona, es para prevenir los ataques de asma — no sirve para aliviar una crisis de inmediato.\n\nÚselo cada día: 1 disparo en la mañana y 1 en la noche, aunque se sienta bien.\n\nSiempre enjuáguese la boca después para evitar irritación."
+  },
+  {
+    "id": "ev5",
+    "category": "cardiovascular",
+    "label_text": "Rosuvastatin 10mg. Take 1 tablet once daily. Can be taken any time of day. Avoid large amounts of alcohol. Prescriber: Dr. Kim",
+    "fields": {
+      "drug_name": "Rosuvastatina",
+      "dosage": "10 mg",
+      "frequency": "una vez al día",
+      "warnings": [
+        "Evitar grandes cantidades de alcohol",
+        "Reportar dolor muscular repentino"
+      ],
+      "prescriber": "Dr. Kim"
+    },
+    "explanation": "Este medicamento, la rosuvastatina, es para controlar el colesterol.\n\nTome una pastilla al día — a la mañana o en la noche, lo que le quede más fácil, pero siempre a la misma hora.\n\nEvite tomar mucho alcohol. Si los músculos le duelen de repente, llame a su médico."
+  }
+]

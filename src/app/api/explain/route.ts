@@ -4,6 +4,8 @@ import fs from "fs";
 import path from "path";
 import { scoreExplanation, ExtractedFields } from "@/lib/scoring";
 import { saveExplanation } from "@/lib/supabase";
+import { inferCategory } from "@/lib/inferCategory";
+import { CLAUDE_MODEL } from "@/lib/model";
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const ELEVENLABS_API_KEY = process.env.ELEVENLABS_API_KEY;
@@ -40,11 +42,15 @@ const MOCK_RESPONSES = [
 type Example = {
   id: string;
   category: string;
+  eval?: boolean;
   label_text: string;
   fields: ExtractedFields;
   explanation: string;
 };
 
+// Training pool only. The held-out eval set lives in src/data/eval-holdout.json
+// and is intentionally never loaded here — that file exists to keep evaluation
+// labels out of the few-shot bank so the learning-curve experiment stays valid.
 function loadExamples(): Example[] {
   try {
     const filePath = path.join(process.cwd(), "src", "data", "examples.json");
@@ -54,22 +60,11 @@ function loadExamples(): Example[] {
   }
 }
 
-function inferCategory(drugName: string): string {
-  const n = drugName.toLowerCase();
-  if (/estatina|statin|atorva|simva|rosuva|pravastat/.test(n)) return "cardiovascular";
-  if (/metformin|glipizid|gliburid|insulin|sitagliptin|glargina|dapagliflozin/.test(n)) return "diabetes";
-  if (/lisinopril|enalapril|captopril|ramipril|amlodipino|losartan|valsartan|irbesartan|hidroclorotiazida|olmesartan/.test(n)) return "antihypertensive";
-  if (/ibuprofeno|ibuprofen|acetaminofén|paracetamol|naproxen|naproxeno|aspirina|ketorolaco/.test(n)) return "pain";
-  if (/amoxicilina|amoxicillin|azitromicina|ciprofloxacino|levofloxacino|cefazolina|doxiciclina/.test(n)) return "antibiotic";
-  if (/warfarina|warfarin|heparina|apixabán|rivaroxabán|dabigatrán/.test(n)) return "anticoagulant";
-  if (/albuterol|salbutamol|montelukast|fluticasona|budesonida|salmeterol/.test(n)) return "respiratory";
-  if (/levotiroxina|levothyroxine/.test(n)) return "thyroid";
-  return "general";
-}
 
 function pickFewShot(examples: Example[], category: string): Example[] {
-  const matching = examples.filter((e) => e.category === category);
-  const pool = matching.length >= 3 ? matching : [...matching, ...examples.filter((e) => e.category !== category)];
+  const eligible = examples.filter((e) => !e.eval);
+  const matching = eligible.filter((e) => e.category === category);
+  const pool = matching.length >= 3 ? matching : [...matching, ...eligible.filter((e) => e.category !== category)];
   return pool.slice(0, 3);
 }
 
@@ -148,7 +143,7 @@ export async function POST(req: NextRequest) {
     | "image/webp";
 
   const ocrResponse = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: CLAUDE_MODEL,
     max_tokens: 1024,
     messages: [
       {
@@ -192,7 +187,7 @@ If any field is not visible, use an empty string or empty array.`,
   const fewShot = pickFewShot(examples, category);
 
   const explainResponse = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: CLAUDE_MODEL,
     max_tokens: 512,
     system: `You are a healthcare communicator specializing in Latin American Spanish patient education.
 Write clear, warm explanations for prescription medications at a 6th-grade reading level.
@@ -220,11 +215,10 @@ Rules:
 
   // Step 4: Score and persist
   const scores = scoreExplanation(fields, explanation);
-  await saveExplanation({
-    label_text: await image.text().catch(() => ""),
-    explanation,
-    ...scores,
-  });
+  const labelText = [fields.drug_name, fields.dosage, fields.frequency, ...fields.warnings, fields.prescriber]
+    .filter(Boolean)
+    .join(". ");
+  await saveExplanation({ label_text: labelText, explanation, ...scores });
 
   return NextResponse.json({ fields, explanation, audio });
 }

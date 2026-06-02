@@ -4,6 +4,8 @@ import fs from "fs";
 import path from "path";
 import { getAllExplanations, updateExplanation } from "@/lib/supabase";
 import { scoreExplanation, extractFieldsFromLabelText, ExtractedFields } from "@/lib/scoring";
+import { inferCategory } from "@/lib/inferCategory";
+import { CLAUDE_MODEL } from "@/lib/model";
 
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const USE_MOCK =
@@ -46,7 +48,7 @@ async function rewriteExplanation(
   labelText: string
 ): Promise<string> {
   const res = await anthropic.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: CLAUDE_MODEL,
     max_tokens: 512,
     system: `You are an expert medical communicator rewriting low-quality prescription explanations.
 Your rewrites must score high on the Fernández Huerta readability scale (aim for 65+).
@@ -115,7 +117,7 @@ export async function POST() {
       if (scores.composite > 80 && !promotedIds.has(row.id)) {
         examples.push({
           id: row.id,
-          category: "general",
+          category: inferCategory(fields.drug_name),
           label_text: row.label_text ?? "",
           fields,
           explanation: rewritten,
@@ -127,7 +129,7 @@ export async function POST() {
       const fields = extractFieldsFromLabelText(row.label_text ?? "");
       examples.push({
         id: row.id,
-        category: "general",
+        category: inferCategory(fields.drug_name),
         label_text: row.label_text ?? "",
         fields,
         explanation: row.explanation,

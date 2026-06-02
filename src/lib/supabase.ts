@@ -53,15 +53,3 @@ export async function updateExplanation(
   if (error) console.error('[supabase] updateExplanation:', error.message);
 }
 
-export async function getLowScoringExplanations(threshold = 60): Promise<ExplanationRow[]> {
-  const db = getClient();
-  if (!db) return [];
-  const { data, error } = await db
-    .from('explanations')
-    .select('*')
-    .lt('composite', threshold)
-    .order('created_at', { ascending: false })
-    .limit(20);
-  if (error) console.error('[supabase] getLowScoringExplanations:', error.message);
-  return data ?? [];
-}
