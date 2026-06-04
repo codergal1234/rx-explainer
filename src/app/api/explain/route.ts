@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
+import sharp from "sharp";
 import fs from "fs";
 import path from "path";
 import { scoreExplanation, ExtractedFields } from "@/lib/scoring";
@@ -135,12 +136,19 @@ export async function POST(req: NextRequest) {
 
   // Step 1: OCR / field extraction
   const arrayBuffer = await image.arrayBuffer();
-  const base64Image = Buffer.from(arrayBuffer).toString("base64");
-  const mediaType = (image.type || "image/jpeg") as
-    | "image/jpeg"
-    | "image/png"
-    | "image/gif"
-    | "image/webp";
+  const SUPPORTED = ["image/jpeg", "image/png", "image/gif", "image/webp"];
+  let imageBuffer = Buffer.from(arrayBuffer);
+  let mediaType: "image/jpeg" | "image/png" | "image/gif" | "image/webp";
+
+  if (SUPPORTED.includes(image.type)) {
+    mediaType = image.type as typeof mediaType;
+  } else {
+    // Convert unsupported formats (HEIC, HEIF, BMP, TIFF, etc.) to JPEG
+    imageBuffer = await sharp(imageBuffer).rotate().jpeg({ quality: 90 }).toBuffer();
+    mediaType = "image/jpeg";
+  }
+
+  const base64Image = imageBuffer.toString("base64");
 
   const ocrResponse = await anthropic.messages.create({
     model: CLAUDE_MODEL,
@@ -205,10 +213,11 @@ Rules:
     ],
   });
 
-  const explanation =
+  const explanation = (
     explainResponse.content[0].type === "text"
       ? explainResponse.content[0].text.trim()
-      : "";
+      : ""
+  ).replace(/\*\*(.+?)\*\*/g, "$1").replace(/\*(.+?)\*/g, "$1");
 
   // Step 3: TTS
   const audio = await callElevenLabs(explanation);
