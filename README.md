@@ -22,6 +22,10 @@ Can a few-shot prompted model with a curated domain-specific dataset outperform 
 
 ## Eval results
 
+### Supabase — live explanations table
+
+![Supabase table](results/supabase-table.png)
+
 ### Zero-shot Claude vs RxExplainer (few-shot + evolved example bank)
 
 ![Benchmark table](results/benchmark-table.png)
