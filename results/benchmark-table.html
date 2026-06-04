@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RxExplainer Benchmark</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #fff;
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 32px;
+    width: 900px;
+  }
+
+  h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  /* Header */
+  thead tr {
+    background: #1C2B20;
+    color: #fff;
+  }
+  thead th {
+    padding: 11px 16px;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  thead th:not(:first-child) {
+    text-align: right;
+  }
+
+  /* Body rows */
+  tbody tr {
+    border-bottom: 1px solid #e8ede9;
+  }
+  tbody tr:nth-child(1) { background: #fff; }
+  tbody tr:nth-child(2) { background: #EBF2ED; }
+
+  tbody td {
+    padding: 13px 16px;
+    color: #1C2B20;
+    font-size: 14px;
+  }
+  tbody td:not(:first-child) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-weight: 500;
+  }
+
+  /* System name column */
+  .system-name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .system-tag {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 7px;
+    border-radius: 99px;
+    font-size: 11px;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  .tag-baseline { background: #f0f0f0; color: #555; }
+  .tag-ours     { background: #4A7C59; color: #fff; }
+
+  /* Highlight cells where RxExplainer clearly wins */
+  .win { color: #2a6e40; font-weight: 700; }
+
+  /* Composite column */
+  .composite { font-size: 15px; }
+
+  /* Delta row */
+  .delta-row {
+    background: #fff !important;
+    border-top: 2px solid #1C2B20 !important;
+  }
+  .delta-row td {
+    color: #555;
+    font-size: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .delta-row td:first-child {
+    font-style: italic;
+    font-size: 12px;
+    color: #888;
+  }
+  .delta-pos { color: #2a6e40; font-weight: 700; }
+  .delta-neu { color: #999; }
+
+  /* Footer note */
+  .note {
+    margin-top: 12px;
+    font-size: 11px;
+    color: #888;
+    text-align: center;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<h2>Zero-shot Claude vs RxExplainer (few-shot + evolved example bank) — held-out n=5 labels</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:38%">System</th>
+      <th>Readability<br><span style="font-weight:400;font-size:10px;opacity:0.7">Fernández Huerta</span></th>
+      <th>Accuracy<br><span style="font-weight:400;font-size:10px;opacity:0.7">field coverage</span></th>
+      <th>Tone<br><span style="font-weight:400;font-size:10px;opacity:0.7">Latin-Am. Spanish</span></th>
+      <th>Composite<br><span style="font-weight:400;font-size:10px;opacity:0.7">weighted avg</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span class="system-name">Zero-shot Claude</span>
+        <span class="system-tag tag-baseline">baseline</span>
+      </td>
+      <td>70.0</td>
+      <td>66.8</td>
+      <td>100.0</td>
+      <td class="composite">74.8</td>
+    </tr>
+    <tr>
+      <td>
+        <span class="system-name">RxExplainer</span>
+        <span class="system-tag tag-ours">few-shot · cycle 4</span>
+      </td>
+      <td>71.5</td>
+      <td class="win">73.4</td>
+      <td>100.0</td>
+      <td class="composite win">78.0</td>
+    </tr>
+    <tr class="delta-row">
+      <td>Δ RxExplainer − zero-shot</td>
+      <td class="delta-pos">+1.5</td>
+      <td class="delta-pos">+6.6</td>
+      <td class="delta-neu">+0.0</td>
+      <td class="delta-pos composite">+3.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p class="note">
+  Scoring: Fernández Huerta readability · accuracy = exact field-match rate (drug name, dosage, frequency) · tone = 0 Castilian Spanish markers · composite = 0.4 × read + 0.4 × acc + 0.2 × tone<br>
+  n=5 held-out labels, SE on mean ≈ ±5–10 pts — directional only &nbsp;·&nbsp; model: anthropic/claude-sonnet-4.6
+</p>
+
+</body>
+</html>

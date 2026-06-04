@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RxExplainer
 
-## Getting Started
+A mobile-first web app where Spanish-speaking patients photograph a prescription label and receive an immediate plain-language explanation in both text and natural-sounding Spanish audio.
 
-First, run the development server:
+**CS 153 final project** — Stanford, Spring 2026
+
+---
+
+## What it does
+
+1. Patient photographs their prescription label
+2. Claude Vision OCR extracts drug name, dosage, frequency, and warnings
+3. A few-shot prompted model generates a warm, plain Latin-American Spanish explanation (6th-grade reading level)
+4. ElevenLabs reads the explanation aloud
+5. Every explanation is scored and stored in Supabase; a self-improvement loop rewrites low scorers and promotes high scorers into the example bank
+
+## Research question
+
+Can a few-shot prompted model with a curated domain-specific dataset outperform zero-shot Claude on plain Latin-American Spanish medical explanations — and can the system self-improve over time using automated metrics?
+
+---
+
+## Eval results
+
+### Zero-shot Claude vs RxExplainer (few-shot + evolved example bank)
+
+![Benchmark table](results/benchmark-table.png)
+
+RxExplainer outperforms zero-shot Claude by **+3.2 composite points**, driven by a **+6.6 accuracy gain** — the curated few-shot examples cause the model to reliably include the drug name, dosage, and frequency the patient needs to hear. Tone is 100 on both systems, confirming Latin-American Spanish specificity is achievable through the system prompt alone.
+
+### Learning curve — composite score over 5 evolution cycles (n=5 held-out labels)
+
+![Learning curve](results/learning-curve-2026-05-29T16-36-15-754.svg)
+
+Composite score improves from **69.8 → 78.0** (peak at cycle 4) as the example bank grows. The gain is driven almost entirely by accuracy — the evolved bank teaches the model to include specific dosage and frequency details. Tone holds at 100 throughout.
+
+---
+
+## Scoring system (fully automated, no LLM-as-judge)
+
+| Metric | Formula | Target |
+|---|---|---|
+| Readability | Fernández Huerta (Spanish-adapted Flesch-Kincaid) | 80–100 = patient level |
+| Accuracy | % of drug name / dosage / frequency found in explanation | Higher is better |
+| Tone | Penalize Castilian Spanish words (vosotros, coger, etc.) | 100 = clean |
+| Composite | 0.4 × readability + 0.4 × accuracy + 0.2 × tone | >80 = promoted to example bank |
+
+---
+
+## Tech stack
+
+| Layer | Tool |
+|---|---|
+| Frontend + API routes | Next.js |
+| Vision OCR + explanation | Anthropic Claude (claude-sonnet-4.6) |
+| Text-to-speech | ElevenLabs (eleven_multilingual_v2) |
+| Database | Supabase (Postgres) |
+| Hosting | Vercel |
+
+---
+
+## Running locally
+
+```bash
+npm install
+```
+
+Create a `.env` file:
+
+```
+ANTHROPIC_API_KEY=...
+ELEVENLABS_API_KEY=...
+SUPABASE_URL=...
+SUPABASE_ANON_KEY=...
+```
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Run the zero-shot benchmark
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npx tsx scripts/zero-shot-benchmark.ts
+```
 
-## Learn More
+### Run the learning-curve experiment
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npx tsx scripts/learning-curve.ts --cycles 5
+```
