@@ -1,0 +1,70 @@
+Learning-curve experiment
+  training pool : 19 examples
+  held-out      : 5 labels (ev1, ev2, ev3, ev4, ev5)
+  cycles        : 5
+  model         : anthropic/claude-sonnet-4.6
+  base URL      : https://openrouter.ai/api
+
+Probing Supabase...
+  ✓ Supabase reachable
+
+Cost estimate: ≈ $1.47 for 5 cycles
+
+Run id: 2026-05-29T16-36-15-754
+Snapshot: /Users/mahijariwala/rx-explainer/results/examples.snapshot-2026-05-29T16-36-15-754.json
+CSV:      /Users/mahijariwala/rx-explainer/results/learning-curve-2026-05-29T16-36-15-754.csv
+
+=== Cycle 0 (baseline) ===
+Cycle 0/5 complete — mean composite: 69.80
+  readability=71.38  accuracy=53.20  tone=100.00
+
+=== Cycle 1/5 ===
+  training pass on 19 labels...
+  evolve (rewrite<60, promote>80, prune<50)...
+    rewrote=2 promoted=2 pruned=0 total_db_rows=21
+  re-evaluating held-out 5 labels...
+Cycle 1/5 complete — mean composite: 75.00
+  readability=70.76  accuracy=66.60  tone=100.00
+
+=== Cycle 2/5 ===
+  training pass on 19 labels...
+  evolve (rewrite<60, promote>80, prune<50)...
+    rewrote=1 promoted=4 pruned=0 total_db_rows=42
+  re-evaluating held-out 5 labels...
+Cycle 2/5 complete — mean composite: 74.80
+  readability=70.46  accuracy=66.60  tone=100.00
+
+=== Cycle 3/5 ===
+  training pass on 19 labels...
+  evolve (rewrite<60, promote>80, prune<50)...
+    rewrote=1 promoted=8 pruned=0 total_db_rows=67
+  re-evaluating held-out 5 labels...
+Cycle 3/5 complete — mean composite: 75.40
+  readability=71.62  accuracy=66.60  tone=100.00
+
+=== Cycle 4/5 ===
+  training pass on 19 labels...
+  evolve (rewrite<60, promote>80, prune<50)...
+    rewrote=2 promoted=17 pruned=0 total_db_rows=100
+  re-evaluating held-out 5 labels...
+Cycle 4/5 complete — mean composite: 78.00
+  readability=71.54  accuracy=73.40  tone=100.00
+
+=== Cycle 5/5 ===
+  training pass on 19 labels...
+  evolve (rewrite<60, promote>80, prune<50)...
+    rewrote=2 promoted=34 pruned=0 total_db_rows=150
+  re-evaluating held-out 5 labels...
+Cycle 5/5 complete — mean composite: 75.20
+  readability=71.76  accuracy=66.60  tone=100.00
+
+─── Final summary ─────────────────────────────
+  cycle 0 mean composite: 69.80
+  cycle 5 mean composite: 75.20
+  delta: 5.40 points
+
+  CSV: /Users/mahijariwala/rx-explainer/results/learning-curve-2026-05-29T16-36-15-754.csv
+  SVG: /Users/mahijariwala/rx-explainer/results/learning-curve-2026-05-29T16-36-15-754.svg
+  Snapshot: /Users/mahijariwala/rx-explainer/results/examples.snapshot-2026-05-29T16-36-15-754.json
+
+  Caveat: n=5 held-out → directional only. SE on the mean is roughly ±5–10 points/cycle; read the curve's shape, not point-to-point deltas. ev5 Rosuvastatin shares its drug class with ex15/ex18 (statins) in training; ev1 Amoxicillin's original label_text matched the removed ex5 — see plan for the contamination fix.
