@@ -235,7 +235,8 @@
       ],
       "prescriber": "Dr. Espinoza"
     },
-    "explanation": "Este medicamento, la rosuvastatina, baja el colesterol malo en su sangre para proteger su corazón y reducir el riesgo de un ataque cardíaco o derrame cerebral.\n\nTómelo una vez al día, con o sin comida, a cualquier hora. Es importante tomarlo todos los días aunque no sienta síntomas — el colesterol alto no duele.\n\nSi siente dolor fuerte, debilidad o calambres en los músculos, avísele a su doctor. Necesitará análisis de sangre de vez en cuando."
+    "explanation": "Este medicamento, la rosuvastatina, baja el colesterol malo en su sangre para proteger su corazón y reducir el riesgo de un ataque cardíaco o derrame cerebral.\n\nTómelo una vez al día, con o sin comida, a cualquier hora. Es importante tomarlo todos los días aunque no sienta síntomas — el colesterol alto no duele.\n\nSi siente dolor fuerte, debilidad o calambres en los músculos, avísele a su doctor. Necesitará análisis de sangre de vez en cuando.",
+    "eval": true
   },
   {
     "id": "ex16",
@@ -251,7 +252,8 @@
       ],
       "prescriber": "Dr. Ortega"
     },
-    "explanation": "Este medicamento, el escitalopram, ayuda al cerebro a regular el estado de ánimo. Se usa para tratar la depresión y la ansiedad.\n\nTómelo una vez al día, con o sin comida. Al principio puede sentirse un poco más inquieto o con náuseas — esto pasa en pocos días. Espere entre 2 y 4 semanas para sentir la mejoría completa.\n\nEvite el alcohol mientras lo toma. No lo deje de tomar de repente — su doctor le explicará cómo bajarlo poco a poco."
+    "explanation": "Este medicamento, el escitalopram, ayuda al cerebro a regular el estado de ánimo. Se usa para tratar la depresión y la ansiedad.\n\nTómelo una vez al día, con o sin comida. Al principio puede sentirse un poco más inquieto o con náuseas — esto pasa en pocos días. Espere entre 2 y 4 semanas para sentir la mejoría completa.\n\nEvite el alcohol mientras lo toma. No lo deje de tomar de repente — su doctor le explicará cómo bajarlo poco a poco.",
+    "eval": true
   },
   {
     "id": "ex17",
@@ -267,7 +269,8 @@
       ],
       "prescriber": "Dr. Lara"
     },
-    "explanation": "Este medicamento, budesonida con formoterol, tiene dos ingredientes que trabajan juntos: uno reduce la inflamación y el otro abre los bronquios. Es para el control diario del asma o EPOC.\n\nUse 2 inhalaciones por la mañana y 2 por la noche. Siempre enjuague la boca con agua después de cada uso.\n\nEste inhalador no es para un ataque repentino — use su inhalador de rescate en esos casos. Si sus síntomas empeoran, llame a su doctor de inmediato."
+    "explanation": "Este medicamento, budesonida con formoterol, tiene dos ingredientes que trabajan juntos: uno reduce la inflamación y el otro abre los bronquios. Es para el control diario del asma o EPOC.\n\nUse 2 inhalaciones por la mañana y 2 por la noche. Siempre enjuague la boca con agua después de cada uso.\n\nEste inhalador no es para un ataque repentino — use su inhalador de rescate en esos casos. Si sus síntomas empeoran, llame a su doctor de inmediato.",
+    "eval": true
   },
   {
     "id": "ex18",
@@ -283,7 +286,8 @@
       ],
       "prescriber": "Dr. Ibarra"
     },
-    "explanation": "Este medicamento, la simvastatina, baja el colesterol malo en la sangre para proteger su corazón y sus arterias.\n\nTómelo cada noche, con o sin comida. Evite el jugo de toronja mientras use este medicamento — puede causar efectos no deseados.\n\nSi siente dolor, calambres o debilidad fuerte en los músculos, avísele a su doctor de inmediato. Hágase sus análisis de sangre según le indique su doctor."
+    "explanation": "Este medicamento, la simvastatina, baja el colesterol malo en la sangre para proteger su corazón y sus arterias.\n\nTómelo cada noche, con o sin comida. Evite el jugo de toronja mientras use este medicamento — puede causar efectos no deseados.\n\nSi siente dolor, calambres o debilidad fuerte en los músculos, avísele a su doctor de inmediato. Hágase sus análisis de sangre según le indique su doctor.",
+    "eval": true
   },
   {
     "id": "ex19",
@@ -299,7 +303,8 @@
       ],
       "prescriber": "Dr. Peña"
     },
-    "explanation": "Este medicamento, la levotiroxina, reemplaza la hormona que su tiroides no produce en cantidad suficiente. Ayuda a que su cuerpo tenga energía y funcione bien.\n\nTómelo en ayunas, entre 30 y 60 minutos antes de su primera comida, con un vaso de agua. No lo tome junto con calcio, hierro, antiácidos ni café — impiden que su cuerpo lo absorba.\n\nEs un medicamento de por vida. Hágase sus análisis de sangre según le pida su doctor para ajustar la dosis."
+    "explanation": "Este medicamento, la levotiroxina, reemplaza la hormona que su tiroides no produce en cantidad suficiente. Ayuda a que su cuerpo tenga energía y funcione bien.\n\nTómelo en ayunas, entre 30 y 60 minutos antes de su primera comida, con un vaso de agua. No lo tome junto con calcio, hierro, antiácidos ni café — impiden que su cuerpo lo absorba.\n\nEs un medicamento de por vida. Hágase sus análisis de sangre según le pida su doctor para ajustar la dosis.",
+    "eval": true
   },
   {
     "id": "1fd5006b-81ce-4c92-9af3-8d2365671a7e",

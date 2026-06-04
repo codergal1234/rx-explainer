@@ -287,8 +287,15 @@ function loadExamples(): Example[] {
   return JSON.parse(fs.readFileSync(EXAMPLES_PATH, "utf-8"));
 }
 
+// IDs that must always carry eval:true — re-asserted on every write so the
+// flag can't be silently dropped by an evolve cycle that predates it.
+const EVAL_IDS = new Set(["ex15", "ex16", "ex17", "ex18", "ex19"]);
+
 function writeExamples(examples: Example[]): void {
-  const json = JSON.stringify(examples, null, 2) + "\n";
+  const guarded = examples.map((e) =>
+    EVAL_IDS.has(e.id) ? { ...e, eval: true } : e
+  );
+  const json = JSON.stringify(guarded, null, 2) + "\n";
   fs.writeFileSync(EXAMPLES_PATH, json, "utf-8");
   try {
     fs.writeFileSync(EXAMPLES_ROOT_PATH, json, "utf-8");
