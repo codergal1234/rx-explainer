@@ -137,7 +137,7 @@ export async function POST(req: NextRequest) {
   // Step 1: OCR / field extraction
   const arrayBuffer = await image.arrayBuffer();
   const SUPPORTED = ["image/jpeg", "image/png", "image/gif", "image/webp"];
-  let imageBuffer = Buffer.from(arrayBuffer);
+  let imageBuffer: Buffer = Buffer.from(arrayBuffer);
   let mediaType: "image/jpeg" | "image/png" | "image/gif" | "image/webp";
 
   if (SUPPORTED.includes(image.type)) {
