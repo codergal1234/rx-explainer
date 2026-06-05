@@ -2,6 +2,8 @@
 
 A mobile-first web app where Spanish-speaking patients photograph a prescription label and receive an immediate plain-language explanation in both text and natural-sounding Spanish audio.
 
+**Live demo:** https://rx-explainer.vercel.app
+
 **CS 153 final project** — Stanford, Spring 2026
 
 ---
