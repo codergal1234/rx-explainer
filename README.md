@@ -26,12 +26,6 @@ Can a few-shot prompted model with a curated domain-specific dataset outperform 
 
 ![Supabase table](results/supabase-table.png)
 
-### Zero-shot Claude vs RxExplainer (few-shot + evolved example bank)
-
-![Benchmark table](results/benchmark-table.png)
-
-RxExplainer outperforms zero-shot Claude by **+3.2 composite points**, driven by a **+6.6 accuracy gain** — the curated few-shot examples cause the model to reliably include the drug name, dosage, and frequency the patient needs to hear. Tone is 100 on both systems, confirming Latin-American Spanish specificity is achievable through the system prompt alone.
-
 ### Learning curve — composite score over 5 evolution cycles (n=5 held-out labels)
 
 ![Learning curve](results/learning-curve-2026-05-29T16-36-15-754.svg)
